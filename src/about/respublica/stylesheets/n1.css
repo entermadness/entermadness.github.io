@@ -1,0 +1,61 @@
+/****Tags styling****/
+body{
+    font-family: Consolas;
+    color: #fed;
+    background: #333;
+    align-content:center;
+    margin-left: 100pt;
+    margin-right: 100pt;
+    scroll-behavior: auto;
+}
+
+h1{
+font-size: 24pt;
+text-indent: 1.25cm;
+}
+p{
+    text-align: justify;
+    font-size: 16pt;
+}
+
+table{
+/*    border: 2px #fff;*/
+    border-spacing: 0pt;
+    float: left;
+}
+
+th{/*top-clockwise: 2-20-2-2*/
+    padding-right: 20pt;
+}
+
+a:link{
+    color: #fff;
+}
+a:visited{
+    color:#fed;
+}
+a:hover{
+    color:crimson;
+}
+a:active{
+    color:darkkhaki;
+}
+
+/****Divs styling****/
+#header {
+    align-content: center;
+    width: 100%;
+    height: 54px;
+    border: 1px solid #fff;
+    padding: 0px;
+}
+
+#main{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid #fff;
+    padding: 6px;
+}
+
+/****Classes styling****/
